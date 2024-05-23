@@ -17,7 +17,7 @@ public class StartPanel extends JPanel {
         setPreferredSize(new Dimension(1100, 800)); // Đặt kích thước ưa thích cho JPanel
 
         // Tạo JLabel cho "New game"
-        JLabel newGameLabel = new JLabel("New game");
+        JLabel newGameLabel = new JLabel("New gamee");
         newGameLabel.setForeground(Color.WHITE);
         newGameLabel.setFont(new Font("Arial", Font.BOLD, 40));
         // Tính toán vị trí để JLabel nằm ở giữa JPanel
