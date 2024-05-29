@@ -98,7 +98,7 @@ public class Piece {
     }
     public Piece getHittingP(int targetCol, int targetRow) {
         for(Piece piece : GamePanel.simPieces) {
-            if(piece.col == targetCol && piece.row == targetRow && piece != this) {
+            if(piece.color == targetCol && piece.row == targetRow && piece != this) {
                 return piece;
             }
         }
