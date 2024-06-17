@@ -22,7 +22,7 @@ public class Bishop extends Piece {
         if(isWithinBoard(targetCol,targetRow) && isSameSquare(targetCol,targetRow) == false) {
 
             if(Math.abs(targetCol - preCol) == Math.abs(targetRow - preRow)) {
-                if(isValidSquare(targetCol,targetRow) && pieceIsOnStraightLine(targetCol,targetRow) == false) {
+                if(isValidSquare(targetCol,targetRow) && pieceIsOnDiagonalLine(targetCol,targetRow) == false) {
                     return true;
                 }
 
